@@ -37,3 +37,9 @@ SIG规定了一些profile，如心率计，防丢器，HID OVER GATT等等。每
 3. Link Loss Service (连接丢失服务)
 4. Battery Service(电池服务)
 5. Immediate Alert Service(定位器服务)
+
+(http://www.cnblogs.com/cb168/articles/4844010.html)
+(http://www.2cto.com/kf/201511/450188.html)
+(http://blog.csdn.net/xingqingly/article/details/38343405)
+(http://www.jianshu.com/p/2b09498b84f2)
+
