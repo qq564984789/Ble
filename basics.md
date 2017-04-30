@@ -11,7 +11,7 @@ GAP给设备定义了若干角色，其中主要的两个是：外围设备（Pe
 在GAP中外围设备通过两种方式向外广播数据：Advertising Data Payload(广播数据)和Scan Response Data（扫描回复），这里包含一些设备额外的信息，例如设备的名字。
 3. 广播流程
 
-![广播流程]（http://upload-images.jianshu.io/upload_images/4767316-5496ee806b058916.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240）
+![广播流程](http://upload-images.jianshu.io/upload_images/4767316-5496ee806b058916.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## Profile
 > Profile,可以理解为一种规范(通信协议)，profile存在于从机中。
