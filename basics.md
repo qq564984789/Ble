@@ -43,3 +43,9 @@ SIG规定了一些profile，如心率计，防丢器，HID OVER GATT等等。每
 (http://blog.csdn.net/xingqingly/article/details/38343405)
 (http://www.jianshu.com/p/2b09498b84f2)
 
+BLE的数据报文：长度域包含5个比特，有效范围0~31。那么数据报文的最大净荷是31个字节。
+   如果数据被加密，需要4个字节作为消息完整性检查，最大净荷=27个字节。为了简化设计，未加密的报文最大净荷长度也限制为27个字节。
+   所以，数据报文最大净荷 = 27个字节。
+   在这27个字节中，L2CAP Header：length-2字节，Channel ID-2字节。
+   Attribute Opcode：1字节。Attribute Handle：2字节。
+   因此，实际传送的数据字节数 = 27 - 7 = 20字节。
