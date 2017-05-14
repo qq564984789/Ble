@@ -17,6 +17,7 @@ GAP规定了4种角色：
 2、Central：扫面广播，并能发起连接，如手机。在连接中扮演主角色。
 3、Broadcaster：:一个不可以被连接的广播者，如温度计。
 4、Observer：扫面广播，但能发起连接，如温度显示器。
+通常来讲：1、2组合在一起使用。3、4组合在一起使用。如果2中设备处于同一个角色，则它们之间也不能相互通信，如只支持外围设备的两方或者只支持中央设备的两方不能互相通信。
 
 ### Application层
 一个Profile由不同的service组成，但里面至少要有1个service。service由不同的characteristic组成，里面至少要有1个characteristic。
