@@ -5,6 +5,7 @@
 
 [gunitech 聚众联合](http://www.gunitech.com/index_e.aspx)
 
+[涂鸦](https://www.tuya.com/)
 
 (TI)、Nordic Semiconductor、IVT Wireless、Silicon Labs等上游厂商
 
